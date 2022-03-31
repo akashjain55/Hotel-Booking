@@ -1,0 +1,27 @@
+
+#circle {
+	width: 70px;
+	height: 70px;
+	border: 12px solid #f3f3f3;
+	border-top: 12px solid #444444;
+	border-radius: 50%;
+	position: fixed;
+	animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.main-wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
